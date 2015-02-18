@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/dialog">
+
+ 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF" 
+       />
+ 
+     <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/again"
+        android:layout_marginTop="5dp"
+        />
+
+     <Button
+         android:id="@+id/dialogButtonExit"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/dialogButtonOK"
+         android:layout_marginLeft="36dp"
+         android:layout_toRightOf="@+id/dialogButtonOK"
+         android:text="@string/exit" />
+ 
+</RelativeLayout>

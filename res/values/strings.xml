@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arkanoid</string>
+    <string name="title">Arkanoid</string>
+    <string name="action_settings">Settings</string>
+	<string name="button">Play</string>
+	<string name="again">Play Again</string>
+	<string name="exit">Exit</string>
+    
+</resources>
